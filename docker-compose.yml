@@ -6,7 +6,7 @@ services:
   web:
     build: ./web
     ports: 
-      - "8080:80"
+      - "8085:80"
   identity:
     build: ./identityserver
     ports:
